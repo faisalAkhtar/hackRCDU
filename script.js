@@ -25,3 +25,12 @@ let countDown = new Date("Feb 27, 2020 09:00:00").getTime(),
     //  'IT'S COUNTED DOWN!;
     //}
   }, second);
+
+  const items = document.querySelectorAll(".accordion a");
+
+function toggleAccordion(){
+  this.classList.toggle('active');
+  this.nextElementSibling.classList.toggle('active');
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));
