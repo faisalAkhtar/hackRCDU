@@ -114,6 +114,15 @@ body {
   font-size: 1.5rem;
 }
 
+.themes-section {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 140vh;
+}
+
 .highlights {
   margin-top: 50px;
   display: flex;
