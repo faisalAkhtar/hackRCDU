@@ -136,7 +136,7 @@
   }
 
   .about-section {
-    height: 90vh;
+    height: 135vh;
     margin-top: 0;
     background: white;
     display: flex;
@@ -164,6 +164,7 @@
     justify-content: center;
     align-items: center;
     width: 65%;
+    margin-bottom: 10px;
   }
 
   .countdown li {
@@ -178,6 +179,29 @@
   .countdown li span {
     display: block;
     font-size: 30px;
+  }
+
+  .prize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .prize-card {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 260px;
+    height: 75px;
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: pink;
   }
 
   .cards {
