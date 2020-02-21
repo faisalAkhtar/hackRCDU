@@ -26,34 +26,11 @@ let countDown = new Date("Feb 27, 2020 09:00:00").getTime(),
     //}
   }, second);
 
-  const items = document.querySelectorAll(".accordion a");
+const items = document.querySelectorAll(".accordion a");
 
-function toggleAccordion(){
-  this.classList.toggle('active');
-  this.nextElementSibling.classList.toggle('active');
+function toggleAccordion() {
+  this.classList.toggle("active");
+  this.nextElementSibling.classList.toggle("active");
 }
 
-items.forEach(item => item.addEventListener('click', toggleAccordion));
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    let devfolioOptions = {
-        buttonSelector: '#devf
-olio-apply-now',
-        key: 'hackrcdu',
-    }
-
-    let script = document.createElement('script');
-    script.src = "https://apply.devfolio.co";
-    document.head.append(script);
-
-    script.onload = function () {
-        new Devfolio(devfolioOptions);
-    }
-
-    script.onerror = function () {
-        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-        });
-    }
-});
+items.forEach(item => item.addEventListener("click", toggleAccordion));
