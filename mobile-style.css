@@ -136,7 +136,7 @@
   }
 
   .about-section {
-    height: 105vh;
+    height: 115vh;
     margin-top: 0;
     background: white;
     display: flex;
@@ -192,7 +192,7 @@
 
   .prize-card {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
