@@ -67,7 +67,7 @@ body {
   z-index: 0;
 }
 
-.devfolio-apply-now {
+#devfolio-apply-now {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
@@ -87,11 +87,11 @@ body {
     text-transform: lowercase;
 }
 
-.devfolio-apply-now:not([disabled]) {
+#devfolio-apply-now:not([disabled]) {
     cursor: pointer;
 }
 
-.devfolio-apply-now:hover {
+#devfolio-apply-now:hover {
     background-color: #2954BF !important;
 }
 
