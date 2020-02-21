@@ -67,7 +67,7 @@ body {
   z-index: 0;
 }
 
-##devfolio-apply-now {
+.devfolio-apply-now {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
@@ -87,50 +87,14 @@ body {
     text-transform: lowercase;
 }
 
-#devfolio-apply-now:not([disabled]) {
+.devfolio-apply-now:not([disabled]) {
     cursor: pointer;
 }
 
-#devfolio-apply-now:hover {
+.devfolio-apply-now:hover {
     background-color: #2954BF !important;
 }
 
-.apply,
-.turington {
-  background-color: white;
-  border-radius: 5%;
-  text-align: center;
-  padding: 6px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 10px;
-  height: 50px;
-  width: 30%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-.apply:hover,
-.turington:hover {
-  background-color: #3f5efb;
-  padding: 8px;
-}
-
-.apply-here {
-  display: flex;
-  /* justify-content: center; */
-}
-
-.apply-here a {
-  font-size: 25px;
-  font-weight: 600;
-  color: #3f5efb;
-  text-decoration: none;
-}
-
-.apply-here a:hover {
-  font-size: 27px;
-  color: white;
-}
 
 .icons {
   padding: 15px;
